@@ -68,3 +68,4 @@ if __name__ == "__main__":
     display_records(cursor1)
     modify_db(cursor1)
     search_department(cursor1)
+    connection.close()

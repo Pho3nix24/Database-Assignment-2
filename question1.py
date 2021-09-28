@@ -101,3 +101,4 @@ if __name__ == "__main__":
     search_employee_with_id(cursor1)
     change_employee_name(cursor1)
     display_employee_details(cursor1)
+    connection.close()
